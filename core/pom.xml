@@ -61,7 +61,7 @@
 		<dependency>
 			<groupId>com.lowagie</groupId>
 			<artifactId>itext</artifactId>
-			<version>2.1.2</version>
+			<version>4.2.0</version>
 			<scope>compile</scope>
 		</dependency>
 		<!-- end servlet tests -->
@@ -190,7 +190,7 @@
 		<dependency>
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi</artifactId>
-			<version>3.0.1-FINAL</version>
+			<version>3.7</version>
 			<scope>compile</scope>
 		</dependency>
 		<dependency>
