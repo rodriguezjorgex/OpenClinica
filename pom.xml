@@ -28,7 +28,7 @@
 		<config.file>src/main/resources/datainfo.properties</config.file>
 
 		<!-- Library Versions -->
-		<spring.version>3.2.18.RELEASE</spring.version>
+		<spring.version>6.1.14</spring.version>
 		<db.test>localhost</db.test>
 	</properties>
 	<profiles>
@@ -68,7 +68,7 @@
 												</goals>
 											</pluginExecutionFilter>
 											<action>
-												<ignore />
+												<ignore/>
 											</action>
 										</pluginExecution>
 										<!-- <pluginExecution> <pluginExecutionFilter> <groupId>org.codehaus.mojo</groupId>
@@ -245,17 +245,17 @@
 		<dependency>
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-core</artifactId>
-			<version>3.2.10.RELEASE</version>
+			<version>6.2.7</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-ldap</artifactId>
-			<version>3.2.10.RELEASE</version>
+			<version>6.2.7</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-config</artifactId>
-			<version>3.2.10.RELEASE</version>
+			<version>6.2.7</version>
 		</dependency>
 		<!--@pgawade 10-DEC-2010 Added to get spring ContextLoaderListener class
 			in core -->
